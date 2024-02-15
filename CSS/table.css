@@ -1,0 +1,27 @@
+table,tr,th,td{
+
+    border: 2px solid black;
+    border-collapse: collapse ;
+    padding: 10px;
+    margin: 50px;
+    border-spacing: 50px;
+
+}
+
+th{
+
+    background-color: rgb(0, 140, 255) ;
+}
+
+td{
+
+    background-color: rgb(0, 247, 255) ;
+}
+
+h1{
+
+    text-shadow: 3px  3px 2px gray , 2px 2px 1px gray ;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}

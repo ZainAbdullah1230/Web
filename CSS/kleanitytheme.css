@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.cursor{
+    position: absolute;
+    height:15px;
+    width: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-bottom: 1px solid #dadada;
+}
+.nav-part1 h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.nav-part2 a,i{
+    text-decoration: none;
+    margin: 20px;
+    letter-spacing: 3px;
+    color: #000;
+    position: relative;
+}
+.nav-part2 a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+    width: 0%;
+    background-color: #333;
+    transition: 0.5s;
+}
+
+.nav-part2 a:hover::after{
+    width: 100%;
+}
+#page2{
+    height: calc(100% - 140px);
+    width: 100%;
+    background-color: #dadada;
+    padding: 270px 100px;
+}
+#page2 h1{
+    font-size: 100px;
+    color: #000;
+    opacity: 0.75;
+}
+#page2 p{
+    font-size: 17px;
+    opacity: 0.7;
+}
+#page2 button{
+    padding: 20px 20px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    margin: 40px 5px 0 5px ;
+}
+
+#page2 #btn1{
+    border: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+    transition: 0.5s;
+}
+#page2 #btn2{
+    border: none;
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#page2 #btn1:hover{
+    background-color: #333;
+    color: #fff;
+}
+#page2 #btn2:hover{
+    border: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+
+}
+#page2>#center{
+    opacity: 0.1;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: "sans";
+    font-size: 500px;
+}
+#page2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}

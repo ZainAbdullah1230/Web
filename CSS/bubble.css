@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202, 238, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(72, 104, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 28.5%;
+
+}
+.box{
+    color: rgb(57, 146, 19);
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+#elem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#elem h2{
+    font-size: 30px;
+}
+
+#pbtm{
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble:hover{
+    background-color: rgb(50, 75, 50);
+    cursor: pointer;
+}
